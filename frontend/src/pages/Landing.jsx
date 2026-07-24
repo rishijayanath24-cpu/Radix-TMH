@@ -4,9 +4,18 @@ export default function Landing() {
   const nav = useNavigate()
   return (
     <div className="landing">
+      <video className="auth-video" autoPlay muted loop playsInline preload="auto">
+        <source src="/landing-hero.mp4" type="video/mp4" />
+      </video>
+      <div className="landing-overlay" />
+
       <header className="landing-nav">
         <div className="brand">
-          <div className="logo">R</div>
+          <div className="logo logo-video">
+            <video autoPlay muted loop playsInline preload="auto">
+              <source src="/logo-animation.mp4" type="video/mp4" />
+            </video>
+          </div>
           <b className="lbrand">RADIX Talent Match</b>
         </div>
         <div className="lnav-actions">
