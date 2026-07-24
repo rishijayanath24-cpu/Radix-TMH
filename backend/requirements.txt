@@ -2,7 +2,7 @@
 fastapi==0.115.6
 uvicorn[standard]==0.34.0
 python-multipart==0.0.20
-pydantic==2.10.4
+pydantic==2.11.7
 python-dotenv==1.0.1
 
 # --- Document parsing ---
@@ -18,7 +18,9 @@ openai==1.59.6
 anthropic==0.42.0        # optional: only used if LLM_PROVIDER=anthropic
 
 # --- Supabase (server-side reads/writes) ---
-supabase==2.11.0
+# 2.31+ required: the client rejects Supabase's new sb_secret_/sb_publishable_
+# API key format on older versions ("Invalid API key").
+supabase==2.31.0
 
 # --- Optional semantic matching (heavy: pulls torch). Install only if you want it. ---
 # sentence-transformers==3.3.1
