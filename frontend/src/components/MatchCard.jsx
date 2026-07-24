@@ -12,7 +12,7 @@ export default function MatchCard({ match, top, onClick }) {
       <div className="co">{match.company || 'Company'}</div>
       <div className="role">{match.role || match.jd_source_file}</div>
       <div className="mid">
-        <Gauge value={match.match_score} color={top ? '#f5451f' : '#cfd3da'} label={matchLabel(match.match_score)} />
+        <Gauge value={match.match_score} color={top ? 'var(--accent)' : 'var(--ink-4)'} label={matchLabel(match.match_score)} />
         <div className="checks">
           {checks.map((c, i) => (
             <div className="c" key={i}><span className="tick"><Icon name="check" size={11} /></span>{c}</div>

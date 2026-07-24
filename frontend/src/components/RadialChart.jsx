@@ -13,12 +13,12 @@ export default function RadialChart({ markers = ['10k+', '60k+', '100k+'] }) {
     <svg viewBox={`0 0 ${W} ${H}`} width="100%" style={{ overflow: 'visible' }}>
       <defs>
         <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#ef4322" stopOpacity="0.22" />
-          <stop offset="100%" stopColor="#ef4322" stopOpacity="0" />
+          <stop offset="0%" stopColor="#ec3013" stopOpacity="0.22" />
+          <stop offset="100%" stopColor="#ec3013" stopOpacity="0" />
         </linearGradient>
         <linearGradient id="stroke" x1="0" y1="1" x2="1" y2="0">
-          <stop offset="0%" stopColor="#ef4322" />
-          <stop offset="100%" stopColor="#ff7a45" />
+          <stop offset="0%" stopColor="#ec3013" />
+          <stop offset="100%" stopColor="#ef6853" />
         </linearGradient>
       </defs>
 
@@ -32,8 +32,8 @@ export default function RadialChart({ markers = ['10k+', '60k+', '100k+'] }) {
 
       {pts.map((p, i) => (
         <g key={i}>
-          <circle cx={p.x} cy={p.y} r="8" fill="#ef4322" opacity="0.12" />
-          <circle cx={p.x} cy={p.y} r="3.4" fill="#fff" stroke="#ef4322" strokeWidth="2.2" />
+          <circle cx={p.x} cy={p.y} r="8" fill="#ec3013" opacity="0.12" />
+          <circle cx={p.x} cy={p.y} r="3.4" fill="#fff" stroke="#ec3013" strokeWidth="2.2" />
           <text x={p.x} y={p.y - 13} textAnchor="middle" fontSize="11.5" fontWeight="600"
             fill="#1a1d23" style={{ fontVariantNumeric: 'tabular-nums' }}>{p.t}</text>
         </g>

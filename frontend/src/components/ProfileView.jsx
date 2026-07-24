@@ -146,7 +146,7 @@ export default function ProfileView({ companies, jds, onSignIn }) {
           {tc && (
             <div className="tc-result">
               <div className="tc-top">
-                <Gauge value={tc.readiness_score} size={96} color="#f5451f" label="Readiness" />
+                <Gauge value={tc.readiness_score} size={96} color="var(--accent)" label="Readiness" />
                 <div className="muted">against <b>{tc.company}</b></div>
               </div>
               <div className="bars">
@@ -155,13 +155,13 @@ export default function ProfileView({ companies, jds, onSignIn }) {
                     <span className="bl">{g.category_code}</span>
                     <div className="track">
                       <div className="req" style={{ width: `${g.required_level * 10}%` }} />
-                      <div className="cand" style={{ width: `${g.candidate_level * 10}%`, background: g.gap ? '#e0a23c' : '#6fbf4f' }} />
+                      <div className="cand" style={{ width: `${g.candidate_level * 10}%`, background: g.gap ? 'var(--warn)' : 'var(--good)' }} />
                     </div>
                     <span className="bv">{g.candidate_level}/{g.required_level}</span>
                   </div>
                 ))}
               </div>
-              <div className="legend"><span><i className="req" />required bar</span><span><i style={{ background: '#6fbf4f' }} />you meet it</span><span><i style={{ background: '#e0a23c' }} />gap</span></div>
+              <div className="legend"><span><i className="req" />required bar</span><span><i style={{ background: 'var(--good)' }} />you meet it</span><span><i style={{ background: 'var(--warn)' }} />gap</span></div>
             </div>
           )}
 
@@ -176,7 +176,7 @@ export default function ProfileView({ companies, jds, onSignIn }) {
           {sm && (
             <div className="tc-result">
               <div className="tc-top">
-                <Gauge value={sm.match_score} size={96} color="#f5451f" label={matchLabel(sm.match_score)} />
+                <Gauge value={sm.match_score} size={96} color="var(--accent)" label={matchLabel(sm.match_score)} />
                 <div className="muted">{sm.company} — {sm.role}</div>
               </div>
               <div className="ms-cols">

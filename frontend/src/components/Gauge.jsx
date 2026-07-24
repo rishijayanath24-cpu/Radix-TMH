@@ -1,5 +1,5 @@
 // Circular progress gauge (SVG) — the % ring on each match card.
-export default function Gauge({ value = 0, size = 92, stroke = 8, color = '#f5451f', label }) {
+export default function Gauge({ value = 0, size = 92, stroke = 8, color = 'var(--accent)', label }) {
   const v = Math.max(0, Math.min(100, value))
   const r = (size - stroke) / 2
   const circ = 2 * Math.PI * r
@@ -7,7 +7,7 @@ export default function Gauge({ value = 0, size = 92, stroke = 8, color = '#f545
   return (
     <div className="gauge" style={{ width: size, height: size }}>
       <svg width={size} height={size}>
-        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="#eef0f2" strokeWidth={stroke} />
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="var(--line-2)" strokeWidth={stroke} />
         <circle
           cx={size / 2}
           cy={size / 2}

@@ -15,6 +15,8 @@ import Landing from './pages/Landing'
 import Login from './pages/Login'
 import Icon from './components/Icon'
 import AnalyticsView from './components/AnalyticsView'
+import Sidebar from './components/Sidebar'
+import TalentCheckView from './components/TalentCheckView'
 
 export default function App() {
   return (
@@ -28,18 +30,15 @@ export default function App() {
   )
 }
 
-const ROLE_BADGE = { candidate: 'Candidate', employer: 'Employer', admin: 'Admin' }
-
 function Dashboard() {
   const { user, profile, role, signOut, hasSupabase } = useAuth()
   const navigate = useNavigate()
   const [data, setData] = useState(null)
   const [ci, setCi] = useState(0)
-  const [mode, setMode] = useState('find')     // 'find' | 'hire'
-  const [view, setView] = useState('dashboard') // 'dashboard' | 'profile'
+  const [sbMode, setSbMode] = useState('candidate')     // 'candidate' | 'employer' | 'admin'
+  const [candidateTab, setCandidateTab] = useState('dashboard') // 'dashboard' | 'talentcheck' | 'profile' | 'explore'
   const [health, setHealth] = useState(null)
   const [open, setOpen] = useState('rec')
-  const [menu, setMenu] = useState(false)
   const [me, setMe] = useState(null)
   const [live, setLive] = useState(null)
   const [myJds, setMyJds] = useState(null)      // the employer's OWN postings (live)
@@ -106,8 +105,9 @@ function Dashboard() {
   useEffect(() => {
     const q = new URLSearchParams(window.location.search)
     const v = q.get('view')
-    if (['profile', 'explore', 'employer', 'admin'].includes(v)) setView(v)
-    if (q.get('mode') === 'hire') setMode('hire')
+    if (['profile', 'explore'].includes(v)) { setSbMode('candidate'); setCandidateTab(v) }
+    if (v === 'employer' || q.get('mode') === 'hire') setSbMode('employer')
+    if (v === 'admin') setSbMode('admin')
   }, [])
 
   if (!data) return <Shell><div className="loading">Loading RADIX Talent Match…</div></Shell>
@@ -134,8 +134,6 @@ function Dashboard() {
     source_file: j.source_file, role: j.role, company: j.company_name, skills: j.skills || [],
   }))
   const employerData = { ...mergedData, jds: scopedJdsA }
-  const isEmployerSurface = (role === 'employer' || role === 'admin') &&
-    (view === 'employer' || (view === 'dashboard' && role === 'employer'))
 
   // The signed-in candidate's own live view ("⭐ You") — don't list them twice.
   const pool = liveCandidates.filter((c) => !(me && c.user_id && c.user_id === user?.id))
@@ -144,83 +142,43 @@ function Dashboard() {
   const matches = cand?.matches || []
   const offers = matches.filter((m) => m.match_score >= 60).length
 
-  const navTo = (v) => { setView(v); setMenu(false) }
-
-  // Only functional, role-appropriate tabs.
-  const navItems = [{ v: 'dashboard', label: 'Overview' }]
-  if (!role || role === 'candidate') navItems.push({ v: 'profile', label: 'My Profile' })
-  if (!role || role === 'candidate') navItems.push({ v: 'explore', label: 'Explore Companies' })
-  if (role === 'employer' || role === 'admin') navItems.push({ v: 'employer', label: 'Employer' })
-  if (role === 'admin') navItems.push({ v: 'admin', label: 'Admin' })
-  const showToggle = !role || role === 'candidate'
-
   return (
     <Shell>
-      {/* ---------- top bar ---------- */}
-      <div className="topbar">
-        <div className="brand" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}><div className="logo">R</div></div>
-        <nav className="nav">
-          {navItems.map((it) => (
-            <a key={it.v} className={view === it.v ? 'active' : ''} onClick={() => navTo(it.v)}>{it.label}</a>
-          ))}
-        </nav>
-
-        {showToggle && (
-          <div className="toggle">
-            <button className={mode === 'hire' ? 'on' : ''} onClick={() => { setMode('hire'); setView('dashboard') }}>Hire</button>
-            <button className={mode === 'find' ? 'on' : ''} onClick={() => { setMode('find'); setView('dashboard') }}>Find a job</button>
-          </div>
-        )}
-
-        {user ? (
-          <div className="userchip" onClick={() => setMenu(!menu)}>
-            <div className="uav">{(profile?.full_name || user.email || '?')[0].toUpperCase()}</div>
-            <div className="uinfo">
-              <b>{profile?.full_name || user.email.split('@')[0]}</b>
-              <span>{ROLE_BADGE[role] || 'Candidate'}</span>
-            </div>
-            <span className="ucar">▾</span>
-            {menu && (
-              <div className="umenu" onClick={(e) => e.stopPropagation()}>
-                {(!role || role === 'candidate') && <div onClick={() => navTo('profile')}>My Profile</div>}
-                <div onClick={async () => { setMenu(false); await signOut(); navigate('/') }}>Sign out</div>
-              </div>
-            )}
-          </div>
-        ) : (
-          <button className="signin" onClick={() => navigate('/login')}>Sign in</button>
-        )}
-      </div>
+      <Sidebar
+        mode={sbMode} setMode={setSbMode}
+        subTab={candidateTab} setSubTab={setCandidateTab}
+        user={user} profile={profile} role={role}
+        onSignIn={() => navigate('/login')}
+        onSignOut={async () => { await signOut(); navigate('/') }}
+        onBrandClick={() => navigate('/')}
+      />
 
       <div className="body">
         <div className="content">
           <EngineBanner health={health} hasSupabase={hasSupabase} loggedIn={!!user} companiesCount={companies.length} />
 
-          {isEmployerSurface && (
+          {sbMode === 'employer' && (
             <CompanyScope company={empCompany} setCompany={setEmpCompany}
               list={empCompanyList} count={scopedOwnJds.length} />
           )}
 
-          {view === 'profile' ? (
-            <ProfileView companies={companies} jds={jds} onSignIn={() => navigate('/login')} />
-          ) : view === 'explore' ? (
-            <ExploreCompanies profile={cand?.profile} onBuild={() => navTo('profile')} />
-          ) : view === 'employer' ? (
-            <EmployerView onSignIn={() => navigate('/login')} jds={scopedOwnJds}
-              company={empCompany} onPosted={reloadMyJds} />
-          ) : view === 'admin' ? (
+          {sbMode === 'admin' ? (
             <AdminView onSignIn={() => navigate('/login')} onChanged={reloadLive} />
-          ) : role === 'admin' ? (
-            <AnalyticsView data={mergedData} variant="admin" />
-          ) : role === 'employer' ? (
+          ) : sbMode === 'employer' ? (
             <>
+              <EmployerView onSignIn={() => navigate('/login')} jds={scopedOwnJds}
+                company={empCompany} onPosted={reloadMyJds} />
               <AnalyticsView data={employerData} variant="employer" company={empCompany} scoped />
               <HiringBar companyName={empCompany} jds={scopedOwnJds} candidates={mergedData.candidates} />
             </>
-          ) : mode === 'hire' ? (
-            <AnalyticsView data={mergedData} variant="employer" />
+          ) : candidateTab === 'profile' ? (
+            <ProfileView companies={companies} jds={jds} onSignIn={() => navigate('/login')} />
+          ) : candidateTab === 'explore' ? (
+            <ExploreCompanies profile={cand?.profile} onBuild={() => setCandidateTab('profile')} />
+          ) : candidateTab === 'talentcheck' ? (
+            <TalentCheckView companies={companies} talentChecks={cand?.talent_checks || []} candidateName={cand?.profile?.name} />
           ) : (
-            <FindView {...{ candidates: allCandidates, cand, matches, companies, jds, offers, ci, setCi, open, setOpen, setView, hasMe: !!me, meName: me?.accountName }} />
+            <FindView {...{ candidates: allCandidates, cand, matches, companies, jds, offers, ci, setCi, open, setOpen, setView: setCandidateTab, hasMe: !!me, meName: me?.accountName }} />
           )}
         </div>
       </div>
