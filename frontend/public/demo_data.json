@@ -1,0 +1,2355 @@
+{
+  "companies": [
+    {
+      "name": "Google LLC",
+      "skillsets": {
+        "COD": 9,
+        "DSA": 10,
+        "OOD": 8,
+        "APTI": 8,
+        "COMM": 8,
+        "AI": 8,
+        "CLOUD": 8,
+        "SQL": 7,
+        "SWE": 9,
+        "SYSD": 9,
+        "NETW": 7,
+        "OS": 8
+      }
+    },
+    {
+      "name": "Microsoft",
+      "skillsets": {
+        "COD": 8,
+        "DSA": 8,
+        "OOD": 8,
+        "APTI": 7,
+        "COMM": 8,
+        "AI": 8,
+        "CLOUD": 9,
+        "SQL": 8,
+        "SWE": 9,
+        "SYSD": 8,
+        "NETW": 7,
+        "OS": 7
+      }
+    },
+    {
+      "name": "Oracle Financial Services Software",
+      "skillsets": {
+        "COD": 7,
+        "DSA": 6,
+        "OOD": 7,
+        "APTI": 6,
+        "COMM": 8,
+        "AI": 5,
+        "CLOUD": 6,
+        "SQL": 9,
+        "SWE": 8,
+        "SYSD": 6,
+        "NETW": 7,
+        "OS": 7
+      }
+    }
+  ],
+  "jds": [
+    {
+      "source_type": "jd",
+      "source_file": "Google LLC - Data Scientist.pdf",
+      "company": "Google LLC",
+      "role": "Data Scientist",
+      "name": "",
+      "skills": [
+        {
+          "skill_name": "SQL",
+          "category_code": "SQL",
+          "evidence": "Write efficient SQL",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Data analysis",
+          "category_code": "DSA",
+          "evidence": "Analyze massive datasets",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Predictive modeling",
+          "category_code": "AI",
+          "evidence": "Build predictive models",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Statistical judgment",
+          "category_code": "APTI",
+          "evidence": "Sound statistical judgment",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Communication",
+          "category_code": "COMM",
+          "evidence": "Present findings clearly",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Machine learning",
+          "category_code": "AI",
+          "evidence": "Foundational machine learning",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Experiment design",
+          "category_code": "OTHER",
+          "evidence": "Design experiments",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Data visualization",
+          "category_code": "OTHER",
+          "evidence": "BI/visualization tool",
+          "confidence": "medium"
+        }
+      ],
+      "education": "",
+      "projects": [],
+      "experience": []
+    },
+    {
+      "source_type": "jd",
+      "source_file": "Google LLC - Software Engineer.pdf",
+      "company": "Google LLC",
+      "role": "Software Engineer (SWE)",
+      "name": "",
+      "skills": [
+        {
+          "skill_name": "System design at scale",
+          "category_code": "SYSD",
+          "evidence": "design discussions",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Data structures and algorithms",
+          "category_code": "DSA",
+          "evidence": "strong grasp",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Coding",
+          "category_code": "COD",
+          "evidence": "write production code",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Object-Oriented Design",
+          "category_code": "OOD",
+          "evidence": "object-oriented design",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Operating Systems",
+          "category_code": "OS",
+          "evidence": "operating systems fundamentals",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Networking",
+          "category_code": "NETW",
+          "evidence": "core networking concepts",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Software Engineering",
+          "category_code": "SWE",
+          "evidence": "software engineering fundamentals",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Communication",
+          "category_code": "COMM",
+          "evidence": "clear written and verbal",
+          "confidence": "high"
+        }
+      ],
+      "education": "",
+      "projects": [],
+      "experience": []
+    },
+    {
+      "source_type": "jd",
+      "source_file": "Microsoft - Data Analyst.pdf",
+      "company": "Microsoft Corporation",
+      "role": "Data Analyst",
+      "name": "",
+      "skills": [
+        {
+          "skill_name": "SQL",
+          "category_code": "SQL",
+          "evidence": "Write and optimize SQL queries",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Database schema design",
+          "category_code": "SQL",
+          "evidence": "Design schemas for telemetry and usage data",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Data analysis and interpretation",
+          "category_code": "DSA",
+          "evidence": "Detect and explain anomalies in usage or business metrics",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Quantitative reasoning",
+          "category_code": "APTI",
+          "evidence": "Solid quantitative reasoning",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Applied statistics and machine learning",
+          "category_code": "AI",
+          "evidence": "Basic applied statistics/ML literacy",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Stakeholder communication",
+          "category_code": "COMM",
+          "evidence": "Communicate insights clearly to non-technical stakeholders",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Data visualization",
+          "category_code": "OTHER",
+          "evidence": "Build dashboards and reporting",
+          "confidence": "medium"
+        }
+      ],
+      "education": "",
+      "projects": [],
+      "experience": []
+    },
+    {
+      "source_type": "jd",
+      "source_file": "Microsoft - Software Engineer.pdf",
+      "company": "Microsoft Corporation",
+      "role": "Software Engineer",
+      "name": "",
+      "skills": [
+        {
+          "skill_name": "Data structures and algorithms",
+          "category_code": "DSA",
+          "evidence": "Strong data structures",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Coding",
+          "category_code": "COD",
+          "evidence": "Practical coding skills",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Operating Systems",
+          "category_code": "OS",
+          "evidence": "Working knowledge of operating systems",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Networking",
+          "category_code": "NETW",
+          "evidence": "Core networking",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "System Design",
+          "category_code": "SYSD",
+          "evidence": "Design at the system level",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Object-Oriented Design",
+          "category_code": "OOD",
+          "evidence": "Understanding of object-oriented design",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Software Engineering",
+          "category_code": "SWE",
+          "evidence": "Software engineering maturity",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Communication",
+          "category_code": "COMM",
+          "evidence": "Strong communication",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Cloud Infrastructure",
+          "category_code": "CLOUD",
+          "evidence": "Exposure to cloud infrastructure",
+          "confidence": "medium"
+        }
+      ],
+      "education": "",
+      "projects": [],
+      "experience": []
+    },
+    {
+      "source_type": "jd",
+      "source_file": "Oracle - Application Support Analyst.pdf",
+      "company": "Oracle Financial Services Software Limited",
+      "role": "Application Support Analyst",
+      "name": "",
+      "skills": [
+        {
+          "skill_name": "SQL",
+          "category_code": "SQL",
+          "evidence": "basic SQL",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Linux fundamentals",
+          "category_code": "OS",
+          "evidence": "Operating systems and Linux fundamentals",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Basic networking knowledge",
+          "category_code": "NETW",
+          "evidence": "Basic networking knowledge",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Quantitative and logical reasoning",
+          "category_code": "APTI",
+          "evidence": "Strong quantitative and logical reasoning",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Communication skills",
+          "category_code": "COMM",
+          "evidence": "Excellent communication skills",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Data interpretation",
+          "category_code": "DSA",
+          "evidence": "data interpretation from tables",
+          "confidence": "medium"
+        },
+        {
+          "skill_name": "Problem-solving",
+          "category_code": "SWE",
+          "evidence": "structured problem-solving",
+          "confidence": "medium"
+        }
+      ],
+      "education": "",
+      "projects": [],
+      "experience": []
+    },
+    {
+      "source_type": "jd",
+      "source_file": "Oracle - Associate Software Engineer.pdf",
+      "company": "Oracle Financial Services Software Limited",
+      "role": "Associate Software Engineer",
+      "name": "",
+      "skills": [
+        {
+          "skill_name": "Coding",
+          "category_code": "COD",
+          "evidence": "Write and debug code",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Relational databases",
+          "category_code": "SQL",
+          "evidence": "interact directly with relational databases",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "SQL",
+          "category_code": "SQL",
+          "evidence": "Practical SQL knowledge",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Data structures & algorithms",
+          "category_code": "DSA",
+          "evidence": "Core data structures knowledge",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Object-oriented programming",
+          "category_code": "OOD",
+          "evidence": "Object-oriented programming fundamentals",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Operating systems basics",
+          "category_code": "OS",
+          "evidence": "Operating systems basics",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Quantitative aptitude",
+          "category_code": "APTI",
+          "evidence": "Strong quantitative aptitude",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Communication",
+          "category_code": "COMM",
+          "evidence": "Clear communication",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Agile software development",
+          "category_code": "SWE",
+          "evidence": "Awareness of the software development lifecycle",
+          "confidence": "high"
+        },
+        {
+          "skill_name": "Unit testing",
+          "category_code": "SWE",
+          "evidence": "Perform unit testing",
+          "confidence": "high"
+        }
+      ],
+      "education": "",
+      "projects": [],
+      "experience": []
+    }
+  ],
+  "candidates": [
+    {
+      "source_file": "Ananya Rao.pdf",
+      "profile": {
+        "name": "Ananya Rao",
+        "email": "",
+        "education": "B.Tech, Computer Science and Engineering, Class of 2026 \u2014 CGPA 8.6 / 10",
+        "skills": [
+          {
+            "skill_name": "C++",
+            "category_code": "COD",
+            "evidence": "C++",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Python",
+            "category_code": "COD",
+            "evidence": "Python",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Java",
+            "category_code": "COD",
+            "evidence": "Java",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Data Structures & Algorithms",
+            "category_code": "DSA",
+            "evidence": "Data Structures & Algorithms",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Operating Systems",
+            "category_code": "OS",
+            "evidence": "Operating Systems",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Computer Networks",
+            "category_code": "NETW",
+            "evidence": "Computer Networks",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Object-Oriented Design",
+            "category_code": "OOD",
+            "evidence": "Object-Oriented Design",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Git",
+            "category_code": "COD",
+            "evidence": "Git",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Linux",
+            "category_code": "OS",
+            "evidence": "Linux",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "System design at scale",
+            "category_code": "SYSD",
+            "evidence": "Distributed URL-shortening service",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Redis",
+            "category_code": "SQL",
+            "evidence": "Redis-backed cache",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Multithreading",
+            "category_code": "OS",
+            "evidence": "Multithreaded job scheduler",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Process scheduling algorithms",
+            "category_code": "OS",
+            "evidence": "OS-level process scheduling algorithms",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Real-time chat backend",
+            "category_code": "SYSD",
+            "evidence": "Real-time chat backend",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Rate limiter",
+            "category_code": "SYSD",
+            "evidence": "Shipped a rate-limiter",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Competitive programming",
+            "category_code": "DSA",
+            "evidence": "Solved 350+ problems",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Mentoring",
+            "category_code": "COMM",
+            "evidence": "Mentors juniors",
+            "confidence": "medium"
+          }
+        ],
+        "hackathons": [],
+        "internships": [],
+        "certifications": [],
+        "preferred_roles": [
+          "Software Engineer, Backend Engineer"
+        ],
+        "cv_file": ""
+      },
+      "talent_checks": [
+        {
+          "company": "Google LLC",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 9,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 10,
+              "candidate_level": 9,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 9,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 8,
+              "candidate_level": 10,
+              "gap": false
+            }
+          ],
+          "readiness_score": 54
+        },
+        {
+          "company": "Microsoft",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 8,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 8,
+              "candidate_level": 9,
+              "gap": false
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 8,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 10,
+              "gap": false
+            }
+          ],
+          "readiness_score": 52
+        },
+        {
+          "company": "Oracle Financial Services Software",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 7,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 6,
+              "candidate_level": 9,
+              "gap": false
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 5,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 9,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 6,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 10,
+              "gap": false
+            }
+          ],
+          "readiness_score": 54
+        }
+      ],
+      "matches": [
+        {
+          "jd_source_file": "Google LLC - Software Engineer.pdf",
+          "company": "Google LLC",
+          "role": "Software Engineer (SWE)",
+          "match_score": 88,
+          "matched_skills": [
+            "System design at scale",
+            "Data structures and algorithms",
+            "Coding",
+            "Object-Oriented Design",
+            "Operating Systems",
+            "Networking",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Software Engineering"
+          ]
+        },
+        {
+          "jd_source_file": "Microsoft - Software Engineer.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Software Engineer",
+          "match_score": 81,
+          "matched_skills": [
+            "Data structures and algorithms",
+            "Coding",
+            "Operating Systems",
+            "Networking",
+            "System Design",
+            "Object-Oriented Design",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Software Engineering",
+            "Cloud Infrastructure"
+          ]
+        },
+        {
+          "jd_source_file": "Oracle - Application Support Analyst.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Application Support Analyst",
+          "match_score": 74,
+          "matched_skills": [
+            "SQL",
+            "Linux fundamentals",
+            "Basic networking knowledge",
+            "Communication skills",
+            "Data interpretation"
+          ],
+          "missing_skills": [
+            "Quantitative and logical reasoning",
+            "Problem-solving"
+          ]
+        },
+        {
+          "jd_source_file": "Oracle - Associate Software Engineer.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Associate Software Engineer",
+          "match_score": 70,
+          "matched_skills": [
+            "Coding",
+            "Relational databases",
+            "SQL",
+            "Data structures & algorithms",
+            "Object-oriented programming",
+            "Operating systems basics",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Quantitative aptitude",
+            "Agile software development",
+            "Unit testing"
+          ]
+        },
+        {
+          "jd_source_file": "Microsoft - Data Analyst.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Data Analyst",
+          "match_score": 60,
+          "matched_skills": [
+            "SQL",
+            "Database schema design",
+            "Data analysis and interpretation",
+            "Stakeholder communication"
+          ],
+          "missing_skills": [
+            "Quantitative reasoning",
+            "Applied statistics and machine learning",
+            "Data visualization"
+          ]
+        },
+        {
+          "jd_source_file": "Google LLC - Data Scientist.pdf",
+          "company": "Google LLC",
+          "role": "Data Scientist",
+          "match_score": 39,
+          "matched_skills": [
+            "SQL",
+            "Data analysis",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Predictive modeling",
+            "Statistical judgment",
+            "Machine learning",
+            "Experiment design",
+            "Data visualization"
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "Karthik Subramaniam.pdf",
+      "profile": {
+        "name": "Karthik Subramaniam",
+        "email": "",
+        "education": "B.Tech, Computer Science and Engineering, Class of 2026 \u2014 CGPA 8.2 / 10",
+        "skills": [
+          {
+            "skill_name": "SQL",
+            "category_code": "SQL",
+            "evidence": "SQL extraction",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Python",
+            "category_code": "COD",
+            "evidence": "Python",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "pandas",
+            "category_code": "COD",
+            "evidence": "pandas",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "scikit-learn",
+            "category_code": "AI",
+            "evidence": "scikit-learn",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Power BI",
+            "category_code": "OTHER",
+            "evidence": "Power BI",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Statistics",
+            "category_code": "OTHER",
+            "evidence": "Statistics",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "A/B testing",
+            "category_code": "OTHER",
+            "evidence": "A/B testing basics",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Excel",
+            "category_code": "OTHER",
+            "evidence": "Excel",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Java",
+            "category_code": "COD",
+            "evidence": "basic Java",
+            "confidence": "low"
+          },
+          {
+            "skill_name": "Data Structures & Algorithms",
+            "category_code": "DSA",
+            "evidence": "feature engineering",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Data analysis",
+            "category_code": "OTHER",
+            "evidence": "Data Analytics intern",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Data visualization",
+            "category_code": "OTHER",
+            "evidence": "inter-college data visualization competition",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "System design",
+            "category_code": "SYSD",
+            "evidence": "end-to-end churn-prediction pipeline",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Communication",
+            "category_code": "COMM",
+            "evidence": "presenting results to a non-technical audience",
+            "confidence": "high"
+          }
+        ],
+        "hackathons": [],
+        "internships": [],
+        "certifications": [],
+        "preferred_roles": [
+          "Data Analyst, Data Scientist"
+        ],
+        "cv_file": ""
+      },
+      "talent_checks": [
+        {
+          "company": "Google LLC",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 9,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 10,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 9,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            }
+          ],
+          "readiness_score": 30
+        },
+        {
+          "company": "Microsoft",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 8,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            }
+          ],
+          "readiness_score": 31
+        },
+        {
+          "company": "Oracle Financial Services Software",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 7,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 6,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 5,
+              "candidate_level": 5,
+              "gap": false
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 9,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 6,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            }
+          ],
+          "readiness_score": 34
+        }
+      ],
+      "matches": [
+        {
+          "jd_source_file": "Microsoft - Data Analyst.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Data Analyst",
+          "match_score": 85,
+          "matched_skills": [
+            "SQL",
+            "Database schema design",
+            "Data analysis and interpretation",
+            "Applied statistics and machine learning",
+            "Stakeholder communication",
+            "Data visualization"
+          ],
+          "missing_skills": [
+            "Quantitative reasoning"
+          ]
+        },
+        {
+          "jd_source_file": "Google LLC - Data Scientist.pdf",
+          "company": "Google LLC",
+          "role": "Data Scientist",
+          "match_score": 74,
+          "matched_skills": [
+            "SQL",
+            "Data analysis",
+            "Predictive modeling",
+            "Communication",
+            "Machine learning",
+            "Data visualization"
+          ],
+          "missing_skills": [
+            "Statistical judgment",
+            "Experiment design"
+          ]
+        },
+        {
+          "jd_source_file": "Google LLC - Software Engineer.pdf",
+          "company": "Google LLC",
+          "role": "Software Engineer (SWE)",
+          "match_score": 50,
+          "matched_skills": [
+            "System design at scale",
+            "Data structures and algorithms",
+            "Coding",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Object-Oriented Design",
+            "Operating Systems",
+            "Networking",
+            "Software Engineering"
+          ]
+        },
+        {
+          "jd_source_file": "Oracle - Associate Software Engineer.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Associate Software Engineer",
+          "match_score": 50,
+          "matched_skills": [
+            "Coding",
+            "Relational databases",
+            "SQL",
+            "Data structures & algorithms",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Object-oriented programming",
+            "Operating systems basics",
+            "Quantitative aptitude",
+            "Agile software development",
+            "Unit testing"
+          ]
+        },
+        {
+          "jd_source_file": "Microsoft - Software Engineer.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Software Engineer",
+          "match_score": 46,
+          "matched_skills": [
+            "Data structures and algorithms",
+            "Coding",
+            "System Design",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Operating Systems",
+            "Networking",
+            "Object-Oriented Design",
+            "Software Engineering",
+            "Cloud Infrastructure"
+          ]
+        },
+        {
+          "jd_source_file": "Oracle - Application Support Analyst.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Application Support Analyst",
+          "match_score": 42,
+          "matched_skills": [
+            "SQL",
+            "Communication skills",
+            "Data interpretation"
+          ],
+          "missing_skills": [
+            "Linux fundamentals",
+            "Basic networking knowledge",
+            "Quantitative and logical reasoning",
+            "Problem-solving"
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "Priya Menon.pdf",
+      "profile": {
+        "name": "Priya Menon",
+        "email": "",
+        "education": "B.Tech, Information Technology, Class of 2026 \u2014 CGPA 7.4 / 10",
+        "skills": [
+          {
+            "skill_name": "Java",
+            "category_code": "COD",
+            "evidence": "Built a simple student",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "MySQL",
+            "category_code": "SQL",
+            "evidence": "MySQL backend",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "SQL",
+            "category_code": "SQL",
+            "evidence": "SQL (basic)",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Linux",
+            "category_code": "OS",
+            "evidence": "Linux basics",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Networking fundamentals",
+            "category_code": "NETW",
+            "evidence": "Networking fundamentals",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Ticketing tools",
+            "category_code": "OTHER",
+            "evidence": "exposure to ticketing tools",
+            "confidence": "low"
+          },
+          {
+            "skill_name": "MS Excel",
+            "category_code": "OTHER",
+            "evidence": "MS Excel",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Cisco Networking Basics",
+            "category_code": "NETW",
+            "evidence": "Cisco Networking Basics",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Troubleshooting",
+            "category_code": "SWE",
+            "evidence": "handled first-level troubleshooting",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Communication",
+            "category_code": "COMM",
+            "evidence": "Volunteer coordinator",
+            "confidence": "medium"
+          }
+        ],
+        "hackathons": [],
+        "internships": [],
+        "certifications": [],
+        "preferred_roles": [
+          "Application Support Analyst, Associate Software Engineer"
+        ],
+        "cv_file": ""
+      },
+      "talent_checks": [
+        {
+          "company": "Google LLC",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 9,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 10,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 7,
+              "candidate_level": 8,
+              "gap": false
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 6,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            }
+          ],
+          "readiness_score": 27
+        },
+        {
+          "company": "Microsoft",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 9,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 8,
+              "candidate_level": 8,
+              "gap": false
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 6,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 3,
+              "gap": true
+            }
+          ],
+          "readiness_score": 29
+        },
+        {
+          "company": "Oracle Financial Services Software",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 5,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 9,
+              "candidate_level": 8,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 8,
+              "candidate_level": 3,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 6,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 6,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 3,
+              "gap": true
+            }
+          ],
+          "readiness_score": 34
+        }
+      ],
+      "matches": [
+        {
+          "jd_source_file": "Oracle - Application Support Analyst.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Application Support Analyst",
+          "match_score": 74,
+          "matched_skills": [
+            "SQL",
+            "Linux fundamentals",
+            "Basic networking knowledge",
+            "Communication skills",
+            "Problem-solving"
+          ],
+          "missing_skills": [
+            "Quantitative and logical reasoning",
+            "Data interpretation"
+          ]
+        },
+        {
+          "jd_source_file": "Oracle - Associate Software Engineer.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Associate Software Engineer",
+          "match_score": 70,
+          "matched_skills": [
+            "Coding",
+            "Relational databases",
+            "SQL",
+            "Operating systems basics",
+            "Communication",
+            "Agile software development",
+            "Unit testing"
+          ],
+          "missing_skills": [
+            "Data structures & algorithms",
+            "Object-oriented programming",
+            "Quantitative aptitude"
+          ]
+        },
+        {
+          "jd_source_file": "Google LLC - Software Engineer.pdf",
+          "company": "Google LLC",
+          "role": "Software Engineer (SWE)",
+          "match_score": 63,
+          "matched_skills": [
+            "Coding",
+            "Operating Systems",
+            "Networking",
+            "Software Engineering",
+            "Communication"
+          ],
+          "missing_skills": [
+            "System design at scale",
+            "Data structures and algorithms",
+            "Object-Oriented Design"
+          ]
+        },
+        {
+          "jd_source_file": "Microsoft - Software Engineer.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Software Engineer",
+          "match_score": 58,
+          "matched_skills": [
+            "Coding",
+            "Operating Systems",
+            "Networking",
+            "Software Engineering",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Data structures and algorithms",
+            "System Design",
+            "Object-Oriented Design",
+            "Cloud Infrastructure"
+          ]
+        },
+        {
+          "jd_source_file": "Microsoft - Data Analyst.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Data Analyst",
+          "match_score": 45,
+          "matched_skills": [
+            "SQL",
+            "Database schema design",
+            "Stakeholder communication"
+          ],
+          "missing_skills": [
+            "Data analysis and interpretation",
+            "Quantitative reasoning",
+            "Applied statistics and machine learning",
+            "Data visualization"
+          ]
+        },
+        {
+          "jd_source_file": "Google LLC - Data Scientist.pdf",
+          "company": "Google LLC",
+          "role": "Data Scientist",
+          "match_score": 26,
+          "matched_skills": [
+            "SQL",
+            "Communication"
+          ],
+          "missing_skills": [
+            "Data analysis",
+            "Predictive modeling",
+            "Statistical judgment",
+            "Machine learning",
+            "Experiment design",
+            "Data visualization"
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "Rohan Verma.pdf",
+      "profile": {
+        "name": "Rohan Verma",
+        "email": "",
+        "education": "B.Tech, Computer Science and Engineering, Class of 2026 \u2014 CGPA 9.1 / 10",
+        "skills": [
+          {
+            "skill_name": "C++",
+            "category_code": "COD",
+            "evidence": "Technical Skills",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Python",
+            "category_code": "COD",
+            "evidence": "Technical Skills",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "SQL",
+            "category_code": "SQL",
+            "evidence": "Technical Skills",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Data Structures & Algorithms",
+            "category_code": "DSA",
+            "evidence": "Technical Skills",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "System Design",
+            "category_code": "SYSD",
+            "evidence": "Technical Skills, notification service project",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Object-Oriented Design",
+            "category_code": "OOD",
+            "evidence": "Technical Skills, blog series",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Operating Systems",
+            "category_code": "OS",
+            "evidence": "Technical Skills",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Machine Learning",
+            "category_code": "AI",
+            "evidence": "Technical Skills, recommendation engine project",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Git",
+            "category_code": "SWE",
+            "evidence": "Technical Skills",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Docker",
+            "category_code": "CLOUD",
+            "evidence": "Technical Skills",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Competitive Programming",
+            "category_code": "APTI",
+            "evidence": "500+ problems solved",
+            "confidence": "high"
+          },
+          {
+            "skill_name": "Collaborative Filtering",
+            "category_code": "AI",
+            "evidence": "recommendation engine project",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Real-time Systems",
+            "category_code": "SYSD",
+            "evidence": "collaborative document editor project",
+            "confidence": "medium"
+          },
+          {
+            "skill_name": "Scalability",
+            "category_code": "SYSD",
+            "evidence": "notification service project",
+            "confidence": "medium"
+          }
+        ],
+        "hackathons": [],
+        "internships": [],
+        "certifications": [],
+        "preferred_roles": [
+          "Software Engineer, Data Scientist, Backend Engineer"
+        ],
+        "cv_file": ""
+      },
+      "talent_checks": [
+        {
+          "company": "Google LLC",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 9,
+              "candidate_level": 9,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 10,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 6,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 9,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            }
+          ],
+          "readiness_score": 60
+        },
+        {
+          "company": "Microsoft",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 8,
+              "candidate_level": 9,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 8,
+              "candidate_level": 6,
+              "gap": true
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 9,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 9,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 8,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            }
+          ],
+          "readiness_score": 60
+        },
+        {
+          "company": "Oracle Financial Services Software",
+          "skillset_gap": [
+            {
+              "category_code": "COD",
+              "category_name": "Coding",
+              "required_level": 7,
+              "candidate_level": 9,
+              "gap": false
+            },
+            {
+              "category_code": "DSA",
+              "category_name": "Data Structures & Algorithms",
+              "required_level": 6,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "OOD",
+              "category_name": "Object-Oriented Design",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "APTI",
+              "category_name": "Aptitude",
+              "required_level": 6,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "COMM",
+              "category_name": "Communication",
+              "required_level": 8,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "AI",
+              "category_name": "AI / Machine Learning",
+              "required_level": 5,
+              "candidate_level": 6,
+              "gap": false
+            },
+            {
+              "category_code": "CLOUD",
+              "category_name": "Cloud",
+              "required_level": 6,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SQL",
+              "category_name": "SQL / Databases",
+              "required_level": 9,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SWE",
+              "category_name": "Software Engineering",
+              "required_level": 8,
+              "candidate_level": 5,
+              "gap": true
+            },
+            {
+              "category_code": "SYSD",
+              "category_name": "System Design",
+              "required_level": 6,
+              "candidate_level": 10,
+              "gap": false
+            },
+            {
+              "category_code": "NETW",
+              "category_name": "Networking",
+              "required_level": 7,
+              "candidate_level": 0,
+              "gap": true
+            },
+            {
+              "category_code": "OS",
+              "category_name": "Operating Systems",
+              "required_level": 7,
+              "candidate_level": 5,
+              "gap": true
+            }
+          ],
+          "readiness_score": 65
+        }
+      ],
+      "matches": [
+        {
+          "jd_source_file": "Oracle - Associate Software Engineer.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Associate Software Engineer",
+          "match_score": 90,
+          "matched_skills": [
+            "Coding",
+            "Relational databases",
+            "SQL",
+            "Data structures & algorithms",
+            "Object-oriented programming",
+            "Operating systems basics",
+            "Quantitative aptitude",
+            "Agile software development",
+            "Unit testing"
+          ],
+          "missing_skills": [
+            "Communication"
+          ]
+        },
+        {
+          "jd_source_file": "Microsoft - Software Engineer.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Software Engineer",
+          "match_score": 77,
+          "matched_skills": [
+            "Data structures and algorithms",
+            "Coding",
+            "Operating Systems",
+            "System Design",
+            "Object-Oriented Design",
+            "Software Engineering",
+            "Cloud Infrastructure"
+          ],
+          "missing_skills": [
+            "Networking",
+            "Communication"
+          ]
+        },
+        {
+          "jd_source_file": "Google LLC - Software Engineer.pdf",
+          "company": "Google LLC",
+          "role": "Software Engineer (SWE)",
+          "match_score": 75,
+          "matched_skills": [
+            "System design at scale",
+            "Data structures and algorithms",
+            "Coding",
+            "Object-Oriented Design",
+            "Operating Systems",
+            "Software Engineering"
+          ],
+          "missing_skills": [
+            "Networking",
+            "Communication"
+          ]
+        },
+        {
+          "jd_source_file": "Microsoft - Data Analyst.pdf",
+          "company": "Microsoft Corporation",
+          "role": "Data Analyst",
+          "match_score": 75,
+          "matched_skills": [
+            "SQL",
+            "Database schema design",
+            "Data analysis and interpretation",
+            "Quantitative reasoning",
+            "Applied statistics and machine learning"
+          ],
+          "missing_skills": [
+            "Stakeholder communication",
+            "Data visualization"
+          ]
+        },
+        {
+          "jd_source_file": "Oracle - Application Support Analyst.pdf",
+          "company": "Oracle Financial Services Software Limited",
+          "role": "Application Support Analyst",
+          "match_score": 68,
+          "matched_skills": [
+            "SQL",
+            "Linux fundamentals",
+            "Quantitative and logical reasoning",
+            "Data interpretation",
+            "Problem-solving"
+          ],
+          "missing_skills": [
+            "Basic networking knowledge",
+            "Communication skills"
+          ]
+        },
+        {
+          "jd_source_file": "Google LLC - Data Scientist.pdf",
+          "company": "Google LLC",
+          "role": "Data Scientist",
+          "match_score": 65,
+          "matched_skills": [
+            "SQL",
+            "Data analysis",
+            "Predictive modeling",
+            "Statistical judgment",
+            "Machine learning"
+          ],
+          "missing_skills": [
+            "Communication",
+            "Experiment design",
+            "Data visualization"
+          ]
+        }
+      ]
+    }
+  ]
+}
