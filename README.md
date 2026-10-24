@@ -1,5 +1,11 @@
 # RADIX Talent Match
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Animated Talent Check: résumé skills mapped to 12 skillsets and scored against a company bar" src="assets/hero-dark.svg">
+</picture>
+
 An end-to-end tool that tells a candidate **how ready they are for a specific job**,
 built on RADIX's 12-skillset framework. Upload a JD or résumé, build a profile,
 and run **Talent Check** (vs a company's bar) and **Skill Match** (vs one JD).
